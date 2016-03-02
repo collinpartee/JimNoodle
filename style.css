@@ -1,0 +1,153 @@
+.container{
+    width: 1024px;
+    height: 768px;
+    margin: 0 auto;
+}
+
+.header-footer{
+    background-color: darkorange;
+    width: 100%;
+    text-align: right;
+    padding: 20px 0;
+    height: 3%;
+}
+.navigation-bar{
+    
+}
+
+.nav-button{
+    width: 20%;
+    border: 1px solid white;
+    display: inline;
+    padding: 10px;
+/*    margin: 2px;*/
+    vertical-align: -webkit-baseline-middle;
+}
+
+.intro{
+    height: 35%;
+    background-color: cadetblue;
+    width: 100%;
+}
+
+.intro h1{
+    margin-top: 0;
+}
+
+.main-content{
+    background-color: whitesmoke;
+    width: 100%;
+    padding: 10px 0;
+}
+.main-content.normal{
+    height: 90%;
+}
+
+
+
+.main-content.home{
+    height: 55%;
+}
+
+.feature33{
+    width: 30%;
+    height: 90%;
+    background-color: white;
+    padding: 10px 0;
+    display: inline-block;
+    margin-left: 2.3%;
+    margin-top: 10px;
+}
+
+.feature50{
+    width: 45%;
+    background-color: white;
+    padding: 10px 0;
+    display: inline-block;
+}
+
+.locInfo{
+    margin-top: -40px;
+    vertical-align: text-top;
+}
+.map{
+    width: 60%; 
+    margin: 0 10px;
+    height: 80%;
+}
+
+.feature90{
+    width: 90%;
+    height: 90%;
+    background-color: white;
+    padding: 10px 0;
+    /* display: inline-block; */
+    margin: 0 auto;
+}
+
+.feature90 p{
+    padding: 30px;
+}
+
+.feature90 h2{
+     padding: 25px 25px 0 25px;
+}
+
+.no-padding{
+    padding: 0 !important;
+    display: inline;
+    vertical-align: text-top;
+    
+}
+
+.table{
+    display: table;
+}
+
+.tableColumn{
+    display: table-column;
+}
+
+.tableRow{
+    display: table-row;
+}
+
+.tableCell{
+    display: table-cell;
+}
+
+.align-center{
+    text-align: center;
+}
+
+.specialsBox{
+    border: 1px solid red;
+    width: 30%;
+}
+
+.galleryBox{
+    width: 25%;
+}
+
+#slideshow { 
+    margin: 0 auto; 
+    position: relative; 
+    width: 990px; 
+    height: 90%; 
+    padding: 10px; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+}
+
+#slideshow > div { 
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px; 
+}
+
+.slideShowImages{
+    width: 990px;
+    height: 100%;
+}
+

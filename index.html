@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Jim Noodle &amp; Sushi</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+    <script type="text/javascript">
+        $("#slideshow > div:gt(0)").hide();
+
+        setInterval(function() {
+            $('#slideshow > div:first')
+                .fadeOut(3000)
+                .next()
+                .fadeIn(3000)
+                .end()
+                .appendTo('#slideshow');
+        }, 5000);
+    </script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="header-footer navigation-bar">
+            <div class="nav-button"><a href="index.html">Home</a></div>
+            <div class="nav-button"><a href="menu.html">Menu</a></div>
+            <div class="nav-button"><a href="location.html">Location</a></div>
+            <div class="nav-button"><a href="specials.html">Specials</a></div>
+            <div class="nav-button"><a href="gallery.html">Gallery</a></div>
+            <div class="nav-button"><a href="aboutUs.html">About Us</a></div>
+            <div class="nav-button" style="margin-right: 20px;"><a href="orderOnline.html">Order Online</a></div>
+        </div>
+        <div class="intro">
+            <div id="slideshow">
+                <div style="width: 100%;">
+                    <img src="gallery1.jpg" class="slideShowImages">
+                </div>
+                <div style="width: 100%;">
+                    <img src="gallery2.jpg" class="slideShowImages">
+                </div>
+                <div>
+                    Pretty cool eh? This slide is proof the content can be anything.
+                </div>
+            </div>
+        </div>
+        <div class="main-content home">
+            <div class="feature33">
+                <h2>Header</h2>
+            </div>
+            <div class="feature33">
+                <h2>Header</h2>
+            </div>
+            <div class="feature33">
+                <h2>Header</h2>
+            </div>
+        </div>
+        <div class="header-footer">
+
+        </div>
+    </div>
+</body>
+
+</html>
