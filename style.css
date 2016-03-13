@@ -179,3 +179,16 @@ h3 {
     padding: 10px;
     background-color: cadetblue;
 }
+
+.menu {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.menu-item {
+    font-weight: 900;
+}
+
+.menu-item-description {
+    font-weight: 100;
+}
