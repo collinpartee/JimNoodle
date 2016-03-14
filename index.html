@@ -9,7 +9,7 @@
     <script type="text/javascript">
         $("#slideshow > div:gt(0)").hide();
 
-        setInterval(function() {
+        setInterval(function () {
             $('#slideshow > div:first')
                 .fadeOut(3000)
                 .next()
@@ -17,7 +17,6 @@
                 .end()
                 .appendTo('#slideshow');
         }, 5000);
-
     </script>
 
 </head>
@@ -25,7 +24,7 @@
 <body>
     <div class="container">
         <div class="header-footer navigation-bar">
-            <h1 style="padding: 0px 90px; margin: 0px;">Jim Noodle & Sushi</h1>
+            <h1 style="">Jim Noodle & Sushi</h1>
             <div class="nav-button"><a href="index.html">Home</a></div>
             <div class="nav-button"><a href="menu.html">Menu</a></div>
             <div class="nav-button"><a href="location.html">Location</a></div>
@@ -54,14 +53,14 @@
             </div>
         </div>
         <div class="main-content home">
-            <div class="feature50" style="text-align:center; width: 30%">
+            <div class="feature50" style="text-align:center; width: 30%;height: 350px;">
                 <h2>Specials of the Day</h2>
                 <p>Lunch Special $6.95</p>
                 <p>11:30am-3:30pm</p>
                 <p>Includes deez nutz</p>
-                <img class="home-feature-image" src="gallery4.jpg" />
+                <a href="specials.html"><img class="home-feature-image" src="gallery4.jpg" /></a>
             </div>
-            <div class="feature50" style="text-align:center; width: 30%">
+            <div class="feature50" style="text-align:center; width: 30%; height: 350px;">
                 <h2>Contact Us</h2>
                 <p>Phone: 111-111-1111</p>
                 <p>Fax: 111-111-1110</p>
@@ -75,23 +74,26 @@
                     <img src="american-express.png" style="padding:5px;">
                 </div>
             </div>
-            <div class="feature50" style="text-align:center; width: 30%">
+            <div class="feature50" style="text-align:center; width: 30%; height: 350px;">
                 <h2>Check out our menu </h2>
                 <table>
                     <tbody>
                         <tr>
                             <td>Plate1</td>
-                            <td> <img src="gallery1.jpg" class="home-feature-image">
+                            <td>
+                                <a href="menu.html"> <img src="gallery1.jpg" class="home-feature-image"></a>
                             </td>
                         </tr>
                         <tr>
                             <td>Plate2</td>
-                            <td> <img src="gallery2.jpg" class="home-feature-image">
+                            <td>
+                                <a href="menu.html"> <img src="gallery2.jpg" class="home-feature-image"></a>
                             </td>
                         </tr>
                         <tr>
                             <td>Plate3</td>
-                            <td> <img src="gallery3.jpg" class="home-feature-image">
+                            <td>
+                                <a href="menu.html"> <img src="gallery3.jpg" class="home-feature-image"></a>
                             </td>
                         </tr>
                     </tbody>

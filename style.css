@@ -3,46 +3,79 @@
     height: 768px;
     margin: 0 auto;
 }
+
 .header-footer {
-    background-color: saddlebrown;
+    /*    background-color: saddlebrown;*/
     width: 100%;
     /*    text-align: right;*/
     padding: 20px 0;
     height: 3%;
+    background-image: url(cherry-wood-grain.jpg);
+    color: white;
 }
+
 .navigation-bar {
     display: -webkit-inline-box;
 }
+
+.navigation-bar h1 {
+    padding: 0px 90px;
+    margin: 0px;
+    color: white;
+    margin-top: -5px;
+}
+
+.navigation-bar a {
+    color: white;
+    text-decoration: none;
+}
+
+.navigation-bar a:visited {
+    color: white;
+}
+
+.navigation-bar a:hover {
+    color: darkorange;
+}
+
 .nav-button {
     width: 20%;
-    border: 1px solid white;
+    /*    border: 1px solid white;*/
     display: inline;
     padding: 10px;
     /*    margin: 2px;*/
     vertical-align: -webkit-baseline-middle;
+    color: white;
 }
+
 h3 {
     margin: 0;
 }
+
 .intro {
     height: 35%;
     /*    background-color: cadetblue;*/
     width: 100%;
 }
+
 .intro h1 {
     margin-top: 0;
 }
+
 .main-content {
     background-color: whitesmoke;
     width: 100%;
     padding: 10px 0;
 }
+
 .main-content.normal {
     height: 90%;
 }
+
 .main-content.home {
     height: 55%;
 }
+
 .feature33 {
     width: 30%;
     height: 90%;
@@ -52,6 +85,7 @@ h3 {
     margin-left: 2.3%;
     margin-top: 10px;
 }
+
 .feature50 {
     width: 45%;
     background-color: white;
@@ -59,48 +93,59 @@ h3 {
     display: inline-table;
     margin-left: 1%;
 }
+
 .locInfo {
     margin-top: -40px;
     vertical-align: text-top;
 }
+
 .map {
     width: 60%;
     margin: 0 10px;
     height: 80%;
 }
+
 .feature90 {
     width: 90%;
-    height: 90%;
+/*    height: 90%;*/
     background-color: white;
     padding: 10px 0;
     /* display: inline-block; */
     margin: 0 auto;
 }
+
 .feature90 p {
     padding: 30px;
 }
+
 .feature90 h2 {
     padding: 25px 25px 0 25px;
 }
+
 .feature90 h1 {
     padding: 7px;
 }
+
 .no-padding {
     padding: 0 !important;
     display: inline;
     vertical-align: text-top;
 }
+
 .align-center {
     text-align: center;
 }
+
 .specialsBox {
     border: 2px solid red;
     width: 30%;
     margin: 10px;
 }
+
 .galleryBox {
     width: 25%;
 }
+
 #slideshow {
     margin: 0 auto;
     position: relative;
@@ -109,6 +154,7 @@ h3 {
     padding: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
 }
+
 #slideshow > div {
     position: absolute;
     top: 10px;
@@ -116,50 +162,62 @@ h3 {
     right: 10px;
     bottom: 10px;
 }
+
 .slideShowImages {
     width: 990px;
     height: 100%;
 }
+
 .order-form {
     width: 90%;
     padding: 20px;
 }
+
 .order-page-pic {
     width: 90%;
     margin: 0 auto;
     display: block;
     height: 90%;
 }
+
 .order-page-input {
     width: 100%;
     margin-bottom: 15px;
 }
+
 .home-feature-image {
     width: 40%;
     margin: 0 auto;
     display: block;
     border-radius: 15px;
 }
+
 .credit-card-options {
     display: flex;
 }
+
 .social-media {
     width: 20px;
     height: 20px;
     padding: 10px;
     background-color: cadetblue;
 }
+
 .menu {
     width: 90%;
     margin: 0 auto;
     /*    background-color: aqua;*/
 }
+
 .menu-item {
     font-weight: 900;
 }
+
 .menu-item-description {
     font-weight: 100;
 }
+
 .menu-header {
-    background-color: coral;
+    background-color: darkgreen;
+    color: whitesmoke;
 }
